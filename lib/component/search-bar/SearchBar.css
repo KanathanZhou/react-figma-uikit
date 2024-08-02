@@ -1,0 +1,12 @@
+.alamoma-search-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--alamoma-grey-1);
+
+  outline: none;
+  border: none;
+}
+
+.alamoma-search-bar.focused-border:focus-within {
+  box-shadow: inset 0 0 0 2px var(--alamoma-blue-2);
+}

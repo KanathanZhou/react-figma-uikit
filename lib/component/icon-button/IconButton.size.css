@@ -1,0 +1,48 @@
+.alamoma-icon-button.xs {
+  height: 28px;
+  width: 28px;
+  font-size: 9px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.sm {
+  height: 30px;
+  width: 30px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.md {
+  height: 32px;
+  width: 32px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.lg {
+  height: 36px;
+  width: 36px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.xl {
+  height: 40px;
+  width: 40px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.xxl {
+  height: 44px;
+  width: 44px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.alamoma-icon-button.xxxl {
+  height: 48px;
+  width: 48px;
+  font-size: 15px;
+  border-radius: 4px;
+}

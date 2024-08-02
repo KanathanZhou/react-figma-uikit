@@ -1,0 +1,91 @@
+.alamoma-select.xs {
+  font-size: 9px;
+}
+
+.alamoma-select.sm {
+  font-size: 10px;
+}
+
+.alamoma-select.md {
+  font-size: 11px;
+}
+
+.alamoma-select.lg {
+  font-size: 12px;
+}
+
+.alamoma-select.xl {
+  font-size: 13px;
+}
+
+.alamoma-select.xxl {
+  font-size: 14px;
+}
+
+.alamoma-select.xxxl {
+  font-size: 15px;
+}
+
+.alamoma-select:not(.flat).xs {
+  height: 28px;
+  padding: 0 9px;
+}
+
+.alamoma-select:not(.flat).sm {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.alamoma-select:not(.flat).md {
+  height: 32px;
+  padding: 0 11px;
+}
+
+.alamoma-select:not(.flat).lg {
+  height: 36px;
+  padding: 0 12px;
+}
+
+.alamoma-select:not(.flat).xl {
+  height: 40px;
+  padding: 0 14px;
+}
+
+.alamoma-select:not(.flat).xxl {
+  height: 44px;
+  padding: 0 15px;
+}
+
+.alamoma-select:not(.flat).xxxl {
+  height: 48px;
+  padding: 0 17px;
+}
+
+.alamoma-select.xs .alamoma-select-prefix {
+  margin-right: 6px;
+}
+
+.alamoma-select.sm .alamoma-select-prefix {
+  margin-right: 7px;
+}
+
+.alamoma-select.md .alamoma-select-prefix {
+  margin-right: 8px;
+}
+
+.alamoma-select.lg .alamoma-select-prefix {
+  margin-right: 10px;
+}
+
+.alamoma-select.xl .alamoma-select-prefix {
+  margin-right: 12px;
+}
+
+.alamoma-select.xxl .alamoma-select-prefix {
+  margin-right: 14px;
+}
+
+.alamoma-select.xxxl .alamoma-select-prefix {
+  margin-right: 16px;
+}
+

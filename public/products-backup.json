@@ -1,0 +1,484 @@
+[
+  {
+    "title": "软件开发和项目管理",
+    "url": "http://gitlab.inceptio.tech",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_SOFTWARE_DEVELOPMENT_AND_PROJECT_MANAGEMENT_CLICKED",
+      "url": "http://gitlab.inceptio.tech",
+      "title": "User clicked [app bar] product menu: [软件开发和项目管理]"
+    },
+    "children": [
+      {
+        "title": "Gitlab",
+        "url": "http://gitlab.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_GITLAB_CLICKED",
+          "url": "http://gitlab.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Gitlab]"
+        }
+      },
+      {
+        "title": "Jira",
+        "url": "https://jira.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_GITLAB_CLICKED",
+          "url": "http://gitlab.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Gitlab]"
+        }
+      },
+      {
+        "title": "Jama",
+        "url": "https://jama.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_JAMA_CLICKED",
+          "url": "https://jama.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Jama]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "车云协同数采与回放",
+    "url": "https://chariot.inceptio.tech",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_CHE_YUN_XIE_TONG_YU_SHU_CAI_HUI_FANG_CLICKED",
+      "url": "https://chariot.inceptio.cn",
+      "title": "User clicked [app bar] product menu: [车云协同与数采回放]"
+    },
+    "children": [
+      {
+        "title": "Moment管理",
+        "url": "https://chariot.inceptio.tech/moments",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_MOMENT_MANAGEMENT_CLICKED",
+          "url": "https://chariot.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Moment管理]"
+        }
+      },
+      {
+        "title": "工作流管理",
+        "url": "https://chariot.inceptio.cn/workflows",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_WORKFLOW_MANAGEMENT_CLICKED",
+          "url": "https://chariot.inceptio.cn/workflows",
+          "title": "User clicked [app bar] product sub menu: [工作流管理]"
+        }
+      },
+      {
+        "title": "数据回放",
+        "url": "https://ow.inceptio.cn",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_DATA_REPLAY_CLICKED",
+          "url": "https://ow.inceptio.cn",
+          "title": "User clicked [app bar] product sub menu: [数据回放]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "设备管理",
+    "url": "https://chariot.inceptio.tech/vehicles",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_DEVICE_MANAGEMENT_CLICKED",
+      "url": "https://chariot.inceptio.cn/vehicles",
+      "title": "User clicked [app bar] product menu: [设备管理]"
+    },
+    "children": [
+      {
+        "title": "车辆管理",
+        "url": "https://chariot.inceptio.tech/vehicles",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_VEHICLE_MANAGEMENT_CLICKED",
+          "url": "https://chariot.inceptio.cn/vehicles",
+          "title": "User clicked [app bar] product sub menu: [车辆管理]"
+        }
+      },
+      {
+        "title": "ADU管理",
+        "url": "https://fleet.inceptio.cn/adu_instances",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_ADU_MANAGEMENT_CLICKED",
+          "url": "https://fleet.inceptio.cn/adu_instances",
+          "title": "User clicked [app bar] product sub menu: [ADU管理]"
+        }
+      },
+      {
+        "title": "地图服务",
+        "url": "https://fleet.inceptio.cn/vehicle-config-version",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_MAP_SERVICE_CLICKED",
+          "url": "https://fleet.inceptio.cn/vehicle-config-version",
+          "title": "User clicked [app bar] product sub menu: [地图服务]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "算法训练与仿真",
+    "url": "https://simulation.inceptio.tech",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_ALGORITHM_TRAINING_AND_SIMULATION_CLICKED",
+      "url": "https://simulation.inceptio.tech",
+      "title": "User clicked [app bar] product menu: [算法训练与仿真]"
+    },
+    "children": [
+      {
+        "title": "场景集管理",
+        "url": "https://hubble.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_SCENARIO_SET_MANAGEMENT_CLICKED",
+          "url": "https://hubble.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [场景集管理]"
+        }
+      },
+      {
+        "title": "训练平台",
+        "url": "https://luci.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TRAINING_PLATFORM_CLICKED",
+          "url": "https://luci.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [训练平台]"
+        }
+      },
+      {
+        "title": "仿真",
+        "url": "https://simulation.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_SIMULATION_CLICKED",
+          "url": "https://simulation.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [仿真]"
+        }
+      },
+      {
+        "title": "训练平台（旧版）",
+        "url": "https://luci.inceptio.cn",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TRAINING_PLATFORM_OLD_CLICKED",
+          "url": "https://luci.inceptio.cn",
+          "title": "User clicked [app bar] product sub menu: [训练平台（旧版）]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "软件验证与台架管理",
+    "url": "https://orion.inceptio.tech",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_SOFTWARE_VERIFICATION_AND_TAI_JIA_MANAGEMENT_CLICKED",
+      "url": "https://orion.inceptio.tech",
+      "title": "User clicked [app bar] product menu: [软件验证与台架管理]"
+    },
+    "children": [
+      {
+        "title": "测试用例",
+        "url": "https://orion.inceptio.tech/test_case",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TEST_CASE_CLICKED",
+          "url": "https://orion.inceptio.tech/test_case",
+          "title": "User clicked [app bar] product sub menu: [测试用例]"
+        }
+      },
+      {
+        "title": "测试任务",
+        "url": "https://orion.inceptio.tech/job",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TEST_TASK_CLICKED",
+          "url": "https://orion.inceptio.tech/job",
+          "title": "User clicked [app bar] product sub menu: [测试服务]"
+        }
+      },
+      {
+        "title": "台架管理",
+        "url": "https://orion.inceptio.tech/device",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TAI_JIA_MANAGEMENT_CLICKED",
+          "url": "https://orion.inceptio.tech/device",
+          "title": "User clicked [app bar] product sub menu: [台架管理]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "软件发行管理",
+    "url": "https://fleet.inceptio.cn",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_SOFTWARE_RELEASE_MANAGEMENT_CLICKED",
+      "url": "https://fleet.inceptio.cn",
+      "title": "User clicked [app bar] product menu: [软件发行管理]"
+    },
+    "children": [
+      {
+        "title": "软件发行",
+        "url": "https://fleet.inceptio.cn/releases",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_SOFTWARE_RELEASE_CLICKED",
+          "url": "https://fleet.inceptio.cn/releases",
+          "title": "User clicked [app bar] product sub menu: [软件发行]"
+        }
+      },
+      {
+        "title": "同步机器任务",
+        "url": "https://fleet.inceptio.cn/sync-tasks",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_SYNC_MACHINE_TASK_CLICKED",
+          "url": "https://fleet.inceptio.cn/sync-tasks",
+          "title": "User clicked [app bar] product sub menu: [同步机器任务]"
+        }
+      },
+      {
+        "title": "制品管理",
+        "url": "https://artifact.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_ZHI_PIN_MANAGEMENT_CLICKED",
+          "url": "https://artifact.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [制品管理]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "大数据开发",
+    "url": "https://falcon.inceptio.tech",
+    "clickable": true,
+    "target": "_self",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_BIG_DATA_DEVELOPMENT_CLICKED",
+      "url": "https://falcon.inceptio.tech",
+      "title": "User clicked [app bar] product menu: [大数据开发]"
+    },
+    "children": [
+      {
+        "title": "大数据开发",
+        "url": "https://falcon.inceptio.tech",
+        "clickable": true,
+        "target": "_self",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_BIG_DATA_DEVELOPMENT_CLICKED",
+          "url": "https://falcon.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [大数据开发]"
+        }
+      },
+      {
+        "title": "Superset",
+        "url": "https://superset.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_SUPERSET_CLICKED",
+          "url": "https://superset.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Superset]"
+        }
+      },
+      {
+        "title": "DataHub",
+        "url": "http://datahub.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_DATA_HUB_CLICKED",
+          "url": "http://datahub.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [DataHub]"
+        }
+      },
+      {
+        "title": "指标平台",
+        "url": "https://bi.inceptio.tech/superset/dashboard/131",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_KPI_PLATFORM_CLICKED",
+          "url": "https://bi.inceptio.tech/superset/dashboard/131",
+          "title": "User clicked [app bar] product sub menu: [指标平台]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "训练数据标注",
+    "url": "https://ap.inceptio.cn",
+    "clickable": true,
+    "target": "_blank",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_TRAINING_DATA_ANNOTATION_CLICKED",
+      "url": "https://ap.inceptio.cn",
+      "title": "User clicked [app bar] product menu: [训练数据标注]"
+    },
+    "children": [
+      {
+        "title": "标注平台",
+        "url": "https://ap.inceptio.cn",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_ANNOTATION_PLATFORM_CLICKED",
+          "url": "https://ap.inceptio.cn",
+          "title": "User clicked [app bar] product sub menu: [标注平台]"
+        }
+      },
+      {
+        "title": "2D标注",
+        "url": "https://yasha.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_2D_ANNOTATION_TOOL_CLICKED",
+          "url": "https://yasha.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [2D标注]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "云产品管理",
+    "url": "https://cloud.inceptio.tech",
+    "clickable": true,
+    "target": "_self",
+    "tracking": {
+      "code": "DEV_PORTAL_APP_BAR_PRODUCT_MENU_CLOUD_MANAGEMENT_CLICKED",
+      "url": "https://cloud.inceptio.tech",
+      "title": "User clicked [app bar] product menu: [云产品管理]"
+    },
+    "children": [
+      {
+        "title": "阿里云访问",
+        "url": "https://cloud.inceptio.tech/ali-cloud",
+        "clickable": true,
+        "target": "_self",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_ALI_CLOUD_CLICKED",
+          "url": "https://cloud.inceptio.tech/ali-cloud",
+          "title": "User clicked [app bar] product sub menu: [阿里云访问]"
+        }
+      },
+      {
+        "title": "OSS访问",
+        "url": "https://cloud.inceptio.tech/oss",
+        "clickable": true,
+        "target": "_self",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_OSS_CLICKED",
+          "url": "https://cloud.inceptio.tech/oss",
+          "title": "User clicked [app bar] product sub menu: [OSS访问]"
+        }
+      },
+      {
+        "title": "车云监控",
+        "url": "https://cloud.inceptio.tech/vehicle-monitor",
+        "clickable": true,
+        "target": "_self",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_CHE_YUN_MONITOR_CLICKED",
+          "url": "https://cloud.inceptio.tech/vehicle-monitor",
+          "title": "User clicked [app bar] product sub menu: [车云监控]"
+        }
+      }
+    ]
+  },
+  {
+    "title": "其他",
+    "url": "",
+    "clickable": false,
+    "target": "",
+    "tracking": {
+      "code": "",
+      "url": "",
+      "title": ""
+    },
+    "children": [
+      {
+        "title": "Grafana",
+        "url": "https://grafana.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_GRAFANA_CLICKED",
+          "url": "https://grafana.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Grafana]"
+        }
+      },
+      {
+        "title": "地图平台",
+        "url": "https://cruiser.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_MAP_PLATFORM_CLICKED",
+          "url": "https://cruiser.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [地图平台]"
+        }
+      },
+      {
+        "title": "Triage",
+        "url": "https://triage.inceptio.tech",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_TRIAGE_CLICKED",
+          "url": "https://triage.inceptio.tech",
+          "title": "User clicked [app bar] product sub menu: [Triage]"
+        }
+      },
+      {
+        "title": "运营平台",
+        "url": "https://iop.inceptio.cn",
+        "clickable": true,
+        "target": "_blank",
+        "tracking": {
+          "code": "DEV_PORTAL_APP_BAR_PRODUCT_SUB_MENU_OPERATION_PLATFORM_CLICKED",
+          "url": "https://iop.inceptio.cn",
+          "title": "User clicked [app bar] product sub menu: [运营平台]"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+.alamoma-text-input-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  font-weight: 400;
+  box-sizing: border-box;
+  background-color: var(--alamoma-white-1);
+  color: var(--alamoma-black-2);
+
+  cursor: default;
+  font-family: inherit;
+}
+
+.alamoma-text-input {
+  flex: 1;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+  background-color: transparent;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  cursor: inherit;
+}
+
+.alamoma-text-input::placeholder {
+  color: var(--alamoma-grey-4);
+}
+
+.alamoma-text-input-container > .prefix {
+  flex: none;
+  color: var(--alamoma-black-4);
+}

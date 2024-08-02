@@ -1,0 +1,59 @@
+.alamoma-avatar-button {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 4px;
+  cursor: default;
+  border-radius: 4px;
+  background-color: var(--alamoma-white-1);
+  overflow: hidden;
+}
+
+.alamoma-avatar-button:hover {
+  background-color: var(--alamoma-grey-1);
+}
+
+.alamoma-avatar-button .wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.alamoma-avatar-button .avatar-letter {
+  flex: none;
+  width: 20px; /* 24px */
+  height: 20px; /* 24px */
+  border-radius: 50%;
+  background: var(--alamoma-purple-1);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 11px; /* 13px */
+  font-weight: 500; /* 500 */
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.alamoma-avatar-button .username {
+  color: var(--alamoma-black-1);
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 500;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.alamoma-avatar-button .more {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+}

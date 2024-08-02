@@ -1,0 +1,14 @@
+.alamoma-radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.alamoma-radio.horizontal {
+  flex-direction: row;
+  gap: 12px;
+}
+
+.alamoma-radio.vertical {
+  flex-direction: column;
+  gap: 8px;
+}

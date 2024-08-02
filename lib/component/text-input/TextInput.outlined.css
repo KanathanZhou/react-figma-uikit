@@ -1,0 +1,7 @@
+.alamoma-text-input-container.outlined {
+  box-shadow: inset 0 0 0 1px var(--alamoma-black-5);
+}
+
+.alamoma-text-input-container.outlined:focus-within {
+  box-shadow: inset 0 0 0 2px var(--alamoma-blue-2);
+}

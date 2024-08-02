@@ -1,0 +1,19 @@
+.alamoma-alert.info {
+  background: var(--alamoma-blue-3);
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-alert.success {
+  background: var(--alamoma-green-1);
+  color: #fff;
+}
+
+.alamoma-alert.error {
+  background: var(--alamoma-red-1);
+  color: #fff;
+}
+
+.alamoma-alert.warning {
+  background: var(--alamoma-orange-3);
+  color: #fff;
+}

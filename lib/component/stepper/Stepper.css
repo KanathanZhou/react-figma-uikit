@@ -1,0 +1,35 @@
+.alamoma-stepper-bar {
+  display: flex;
+  gap: 80px;
+}
+
+.alamoma-stepper {
+  color: var(--alamoma-grey-2);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: default;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alamoma-stepper > .step-breadcrumb {
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alamoma-stepper.active {
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-stepper.passed {
+  color: var(--alamoma-green-1);
+}

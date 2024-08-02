@@ -1,0 +1,21 @@
+.alamoma-checkbox-container {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-checkbox-container > .checkbox {
+  flex: none;
+  border-radius: 2px;
+  border: 1px solid var(--alamoma-black-2);
+  box-sizing: border-box;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  user-select: none;
+}

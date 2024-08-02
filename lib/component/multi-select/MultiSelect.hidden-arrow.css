@@ -1,0 +1,58 @@
+.alamoma-multi-select-arrow-container {
+  flex: none;
+  display: flex;
+}
+
+.alamoma-multi-select-arrow-container.hidden-arrow {
+  display: none;
+}
+
+.alamoma-multi-select.hidden-arrow {
+  border: 1px solid transparent;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--alamoma-white-1);
+  padding-right: 0 !important;
+}
+
+.alamoma-multi-select.hidden-arrow:hover, .alamoma-multi-select.hidden-arrow.highlight {
+  border-color: var(--alamoma-black-5);
+}
+
+.alamoma-multi-select.hidden-arrow:hover > .alamoma-multi-select-arrow-container,
+.alamoma-multi-select.hidden-arrow.highlight > .alamoma-multi-select-arrow-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--alamoma-grey-1);
+  overflow: hidden;
+}
+
+.alamoma-multi-select.hidden-arrow.xs > .alamoma-multi-select-arrow-container {
+  width: 16px;
+}
+
+.alamoma-multi-select.hidden-arrow.sm > .alamoma-multi-select-arrow-container {
+  width: 18px;
+}
+
+.alamoma-multi-select.hidden-arrow.md > .alamoma-multi-select-arrow-container {
+  width: 20px;
+}
+
+.alamoma-multi-select.hidden-arrow.lg > .alamoma-multi-select-arrow-container {
+  width: 23px;
+}
+
+.alamoma-multi-select.hidden-arrow.xl > .alamoma-multi-select-arrow-container {
+  width: 26px;
+}
+
+.alamoma-multi-select.hidden-arrow.xxl > .alamoma-multi-select-arrow-container {
+  width: 29px;
+}
+
+.alamoma-multi-select.hidden-arrow.xxxl > .alamoma-multi-select-arrow-container {
+  width: 36px;
+}

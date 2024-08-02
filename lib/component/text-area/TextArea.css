@@ -1,0 +1,21 @@
+.alamoma-text-area {
+  padding: 4px 6px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  background-color: var(--alamoma-white-1);
+  color: var(--alamoma-black-2);
+
+  cursor: default;
+  font-family: inherit;
+}
+
+.alamoma-text-area::placeholder {
+  color: var(--alamoma-grey-3);
+}
+
+.alamoma-text-area.not-resizable {
+  resize: none;
+}

@@ -1,0 +1,6 @@
+.alamoma-list-item.active-filled {
+}
+
+.alamoma-list-item.active-filled.active {
+  background-color: var(--alamoma-blue-3);
+}

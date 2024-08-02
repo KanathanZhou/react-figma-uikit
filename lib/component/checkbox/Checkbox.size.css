@@ -1,0 +1,69 @@
+.alamoma-checkbox-container.xs {
+  gap: 6px;
+  font-size: 9px;
+}
+
+.alamoma-checkbox-container.sm {
+  gap: 7px;
+  font-size: 10px;
+}
+
+.alamoma-checkbox-container.md {
+  gap: 8px;
+  font-size: 11px;
+}
+
+.alamoma-checkbox-container.lg {
+  gap: 10px;
+  font-size: 12px;
+}
+
+.alamoma-checkbox-container.xl {
+  gap: 12px;
+  font-size: 13px;
+}
+
+.alamoma-checkbox-container.xxl {
+  gap: 14px;
+  font-size: 14px;
+}
+
+.alamoma-checkbox-container.xxxl {
+  gap: 16px;
+  font-size: 15px;
+}
+
+.alamoma-checkbox-container.xs > .checkbox {
+  width: 9px;
+  height: 9px;
+}
+
+.alamoma-checkbox-container.sm > .checkbox {
+  width: 10px;
+  height: 10px;
+}
+
+.alamoma-checkbox-container.md > .checkbox {
+  width: 11px;
+  height: 11px;
+}
+
+.alamoma-checkbox-container.lg > .checkbox {
+  width: 12px;
+  height: 12px;
+}
+
+.alamoma-checkbox-container.xl > .checkbox {
+  width: 13px;
+  height: 13px;
+}
+
+.alamoma-checkbox-container.xxl > .checkbox {
+  width: 14px;
+  height: 14px;
+}
+
+.alamoma-checkbox-container.xxxl > .checkbox {
+  width: 15px;
+  height: 15px;
+}

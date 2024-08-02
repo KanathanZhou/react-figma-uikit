@@ -1,0 +1,13 @@
+.alamoma-search-bar.outlined {
+  background-color: var(--alamoma-white-1);
+  border-radius: 999px;
+}
+
+.alamoma-search-bar.outlined > .icon-slot {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--alamoma-blue-1);
+  border-radius: 50%;
+}

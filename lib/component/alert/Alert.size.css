@@ -1,0 +1,62 @@
+.alamoma-alert.xs {
+  font-size: 9px;
+  padding: 9px;
+}
+
+.alamoma-alert.sm {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.alamoma-alert.md {
+  font-size: 11px;
+  padding: 11px;
+}
+
+.alamoma-alert.lg {
+  font-size: 12px;
+  padding: 12px;
+}
+
+.alamoma-alert.xl {
+  font-size: 13px;
+  padding: 14px;
+}
+
+.alamoma-alert.xxl {
+  font-size: 14px;
+  padding: 15px;
+}
+
+.alamoma-alert.xxxl {
+  font-size: 15px;
+  padding: 17px;
+}
+
+.alamoma-alert.xs > .icon-container {
+  margin-right: 6px;
+}
+
+.alamoma-alert.sm > .icon-container {
+  margin-right: 7px;
+}
+
+.alamoma-alert.md > .icon-container {
+  margin-right: 8px;
+}
+
+.alamoma-alert.lg > .icon-container {
+  margin-right: 10px;
+}
+
+.alamoma-alert.xl > .icon-container {
+  margin-right: 12px;
+}
+
+.alamoma-alert.xxl > .icon-container {
+  margin-right: 14px;
+}
+
+.alamoma-alert.xxxl > .icon-container {
+  margin-right: 16px;
+}

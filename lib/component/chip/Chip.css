@@ -1,0 +1,19 @@
+.alamoma-chip {
+  cursor: default;
+  font-weight: 400;
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--alamoma-white-1);
+  color: var(--alamoma-black-4);
+}
+
+.alamoma-chip.border {
+  box-shadow: inset 0 0 0 1px var(--alamoma-black-5);
+}

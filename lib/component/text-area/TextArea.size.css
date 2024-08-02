@@ -1,0 +1,27 @@
+.alamoma-text-area.xs {
+  font-size: 9px;
+}
+
+.alamoma-text-area.sm {
+  font-size: 10px;
+}
+
+.alamoma-text-area.md {
+  font-size: 11px;
+}
+
+.alamoma-text-area.lg {
+  font-size: 12px;
+}
+
+.alamoma-text-area.xl {
+  font-size: 13px;
+}
+
+.alamoma-text-area.xxl {
+  font-size: 14px;
+}
+
+.alamoma-text-area.xxxl {
+  font-size: 15px;
+}

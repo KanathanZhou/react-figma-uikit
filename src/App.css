@@ -1,0 +1,42 @@
+.logo-bar {
+  padding: 0 8px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex: none;
+}
+
+.logo-button {
+  padding: 0 10px;
+  height: 32px;
+  cursor: default;
+  border-radius: 4px;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  display: inline-flex;
+  font-weight: 500;
+}
+
+.logo-button:hover {
+  background-color: var(--alamoma-grey-1);
+}
+
+.app-nav-item {
+  font-size: 11px;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  cursor: default;
+  text-decoration: none;
+  color: var(--alamoma-black-2);
+}
+
+.app-nav-item:hover {
+  background-color: var(--alamoma-blue-3);
+}
+
+.app-nav-item.active {
+  background-color: var(--alamoma-blue-3);
+}

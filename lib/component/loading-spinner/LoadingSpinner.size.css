@@ -1,0 +1,59 @@
+.alamoma-loading-spinner.xxxxs {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+}
+
+.alamoma-loading-spinner.xxxs {
+  width: 20px;
+  height: 20px;
+  border-width: 2px;
+}
+
+.alamoma-loading-spinner.xxs {
+   width: 24px;
+   height: 24px;
+   border-width: 2px;
+ }
+
+.alamoma-loading-spinner.xs {
+   width: 28px;
+   height: 28px;
+   border-width: 2px;
+ }
+
+.alamoma-loading-spinner.sm {
+  width: 30px;
+  height: 30px;
+  border-width: 2px;
+}
+
+.alamoma-loading-spinner.md {
+  width: 32px;
+  height: 32px;
+  border-width: 2px;
+}
+
+.alamoma-loading-spinner.lg {
+  width: 36px;
+  height: 36px;
+  border-width: 2px;
+}
+
+.alamoma-loading-spinner.xl {
+  width: 40px;
+  height: 40px;
+  border-width: 3px;
+}
+
+.alamoma-loading-spinner.xxl {
+  width: 44px;
+  height: 44px;
+  border-width: 3px;
+}
+
+.alamoma-loading-spinner.xxxl {
+  width: 48px;
+  height: 48px;
+  border-width: 3px;
+}

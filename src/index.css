@@ -1,0 +1,18 @@
+@import "./font-family/inter.css";
+@import "./font-family/whyte-inktrap.css";
+
+html, body, #root {
+  font-family: Inter, "Whyte Inktrap", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--alamoma-black-2);
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.whyteInktrap {
+  font-family: "Whyte Inktrap", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

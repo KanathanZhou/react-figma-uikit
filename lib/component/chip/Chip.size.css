@@ -1,0 +1,41 @@
+.alamoma-chip.xs {
+  height: 20px;
+  font-size: 9px;
+  padding: 0 6px;
+}
+
+.alamoma-chip.sm {
+  height: 22px;
+  font-size: 10px;
+  padding: 0 7px;
+}
+
+.alamoma-chip.md {
+  height: 24px;
+  font-size: 11px;
+  padding: 0 8px;
+}
+
+.alamoma-chip.lg {
+  height: 28px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.alamoma-chip.xl {
+  height: 32px;
+  font-size: 13px;
+  padding: 0 12px;
+}
+
+.alamoma-chip.xxl {
+  height: 36px;
+  font-size: 14px;
+  padding: 0 14px;
+}
+
+.alamoma-chip.xxxl {
+  height: 40px;
+  font-size: 15px;
+  padding: 0 16px;
+}

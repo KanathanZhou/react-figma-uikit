@@ -1,0 +1,20 @@
+.alamoma-divider {
+  flex: none;
+  background-color: var(--alamoma-black-5);
+}
+
+.alamoma-divider.vertical {
+  width: 1px;
+}
+
+.alamoma-divider.horizontal {
+  height: 1px;
+}
+
+.alamoma-divider.light {
+  background-color: #e6e6e6;
+}
+
+.alamoma-divider.dark {
+  background-color: #444444;
+}

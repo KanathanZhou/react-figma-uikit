@@ -1,0 +1,9 @@
+.alamoma-linkage {
+  color: var(--alamoma-black-2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.alamoma-linkage:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.alamoma-text-input-container.disabled {
+  cursor: not-allowed;
+  color: #00000050;
+}
+
+.alamoma-text-input-container:not(.embed).disabled {
+  box-shadow: inset 0 0 0 1px #00000020;
+  background-color: #00000010;
+}
+
+.alamoma-text-input:disabled {
+  color: inherit !important;
+}
+
+.alamoma-text-input:disabled::placeholder {
+  color: #00000050;
+}
+
+.alamoma-text-input-container.disabled > .prefix {
+  color: #00000080;
+}

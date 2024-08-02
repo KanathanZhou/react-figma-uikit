@@ -1,0 +1,33 @@
+.alamoma-confirm-modal {
+  position: relative;
+  padding: 20px 24px;
+}
+
+.alamoma-confirm-modal > .header {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--alamoma-black-2);
+  padding-right: 48px;
+}
+
+.alamoma-confirm-modal > .content {
+  color: var(--alamoma-grey-3);
+  font-size: 11px;
+  font-weight: 400;
+  margin: 12px 0;
+}
+
+.alamoma-confirm-modal > .close-button {
+  position: absolute;
+  right: 15px;
+  top: 14px;
+}
+
+.alamoma-confirm-modal > .action-bar {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -1,0 +1,40 @@
+.alamoma-list-item.active-checkmark {
+  padding-left: 0;
+}
+
+.alamoma-list-item.active-checkmark > .checkmark-container {
+  flex: none;
+  width: 28px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alamoma-list-item.xs.active-checkmark > .checkmark-container {
+  width: 24px;
+}
+
+.alamoma-list-item.sm.active-checkmark > .checkmark-container {
+  width: 26px;
+}
+
+.alamoma-list-item.md.active-checkmark > .checkmark-container {
+  width: 28px;
+}
+
+.alamoma-list-item.lg.active-checkmark > .checkmark-container {
+  width: 32px;
+}
+
+.alamoma-list-item.xl.active-checkmark > .checkmark-container {
+  width: 36px;
+}
+
+.alamoma-list-item.xxl.active-checkmark > .checkmark-container {
+  width: 40px;
+}
+
+.alamoma-list-item.xxxl.active-checkmark > .checkmark-container {
+  width: 44px;
+}

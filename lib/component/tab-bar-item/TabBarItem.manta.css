@@ -1,0 +1,40 @@
+.alamoma-tab-bar-item.manta {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--alamoma-grey-3);
+  cursor: default;
+  position: relative;
+}
+
+.alamoma-tab-bar-item.manta.active {
+  font-weight: 500;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-tab-bar-item.manta.active::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--alamoma-black-2);
+}
+
+.alamoma-tab-bar-item.manta.blue.active {
+  color: var(--alamoma-blue-1);
+}
+
+.alamoma-tab-bar-item.manta.blue.active::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--alamoma-blue-1);
+}
+
+

@@ -1,0 +1,13 @@
+.alamoma-alert {
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  cursor: default;
+  font-weight: 500;
+}
+
+.alamoma-alert > .icon-container {
+  flex: none;
+  display: flex;
+}

@@ -1,0 +1,12 @@
+.alamoma-search-bar.flat {
+  background-color: var(--alamoma-grey-1);
+  border-radius: 6px;
+}
+
+.alamoma-search-bar.flat > .icon-slot {
+  flex: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

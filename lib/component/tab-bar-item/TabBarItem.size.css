@@ -1,0 +1,27 @@
+.alamoma-tab-bar-item.xs {
+  font-size: 9px;
+}
+
+.alamoma-tab-bar-item.sm {
+  font-size: 10px;
+}
+
+.alamoma-tab-bar-item.md {
+  font-size: 11px;
+}
+
+.alamoma-tab-bar-item.lg {
+  font-size: 12px;
+}
+
+.alamoma-tab-bar-item.xl {
+  font-size: 13px;
+}
+
+.alamoma-tab-bar-item.xxl {
+  font-size: 14px;
+}
+
+.alamoma-tab-bar-item.xxxl {
+  font-size: 15px;
+}

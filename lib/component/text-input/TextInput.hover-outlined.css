@@ -1,0 +1,10 @@
+.alamoma-text-input-container.hover-outlined {
+}
+
+.alamoma-text-input-container.hover-outlined:hover {
+  box-shadow: inset 0 0 0 1px var(--alamoma-black-5);
+}
+
+.alamoma-text-input-container.hover-outlined:focus-within {
+  box-shadow: inset 0 0 0 2px var(--alamoma-blue-2);
+}

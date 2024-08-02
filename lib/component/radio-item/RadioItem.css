@@ -1,0 +1,24 @@
+.alamoma-radio-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+  font-weight: 400;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-radio-item > .radio-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px var(--alamoma-radio-icon);
+  /*border: 1px solid var(--alamoma-radio-icon);*/
+}
+
+.alamoma-radio-item > .radio-icon > .radio-icon-checked {
+  border-radius: 50%;
+  background: var(--alamoma-radio-icon);
+}

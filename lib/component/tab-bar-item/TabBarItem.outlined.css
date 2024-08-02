@@ -1,0 +1,26 @@
+.alamoma-tab-bar-item.outlined {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4E5969;
+  cursor: default;
+  background-color: #F5F7F9;
+  border-top: 1px solid #E5E6EB;
+  border-left: 1px solid #E5E6EB;
+}
+
+.alamoma-tab-bar-item.outlined:last-child {
+  border-right: 1px solid #E5E6EB;
+}
+
+.alamoma-tab-bar-item.outlined:not(.active) {
+  border-bottom: 1px solid #E5E6EB;
+}
+
+.alamoma-tab-bar-item.outlined.active {
+  background-color: #fff;
+  font-weight: 500;
+  color: #272727;
+}

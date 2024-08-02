@@ -1,0 +1,10 @@
+.alamoma-select.hover-outlined {
+  border: 1px solid transparent;
+  width: 100%;
+  background-color: var(--alamoma-white-1);
+}
+
+.alamoma-select.hover-outlined:hover, .alamoma-select.hover-outlined.highlight {
+  justify-content: space-between;
+  border-color: var(--alamoma-black-5);
+}

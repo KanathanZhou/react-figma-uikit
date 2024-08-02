@@ -1,0 +1,29 @@
+.alamoma-tool-bar {
+  box-sizing: border-box;
+  color: var(--alamoma-black-2);
+  background-color: var(--alamoma-white-1);
+
+  font-family: inherit;
+  font-weight: 400;
+  display: flex;
+}
+
+.alamoma-tool-bar.bottom-border {
+  border-bottom: 1px solid var(--alamoma-black-5);
+}
+
+.alamoma-tool-bar > .title {
+  flex: none;
+  align-self: center;
+}
+
+.alamoma-tool-bar > .body {
+  flex: 1;
+  align-self: center;
+}
+
+.alamoma-tool-bar > .close-slot {
+  display: flex;
+  flex: none;
+  align-self: center;
+}

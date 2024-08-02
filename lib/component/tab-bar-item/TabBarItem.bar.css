@@ -1,0 +1,47 @@
+.alamoma-tab-bar-item.bar {
+  padding: 16px 28px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--alamoma-grey-3);
+  cursor: default;
+  position: relative;
+}
+
+.alamoma-tab-bar-item.bar:first-child {
+  padding-left: 0;
+}
+
+.alamoma-tab-bar-item.bar:last-child {
+  padding-right: 0;
+}
+
+.alamoma-tab-bar-item.bar.active {
+  font-weight: 500;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-tab-bar-item.bar.blue.active {
+  color: var(--alamoma-blue-1);
+}
+
+.alamoma-tab-bar-item.bar.active::after {
+  position: absolute;
+  content: '';
+  left: 28px;
+  right: 28px;
+  bottom: 0;
+  height: 3px;
+  background-color: var(--alamoma-black-2);
+}
+
+.alamoma-tab-bar-item.bar.active:first-child::after {
+  left: 0;
+}
+
+.alamoma-tab-bar-item.bar.active:last-child::after {
+  right: 0;
+}
+
+.alamoma-tab-bar-item.bar.blue.active::after {
+  background-color: var(--alamoma-blue-1);
+}

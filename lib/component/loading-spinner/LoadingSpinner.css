@@ -1,0 +1,12 @@
+.alamoma-loading-spinner {
+  border-radius: 50%;
+  border: 2px solid var(--alamoma-grey-1);
+  border-top-color: var(--alamoma-black-1);
+  animation: alamoma-loading-spinner-loading 1s linear infinite;
+}
+
+@keyframes alamoma-loading-spinner-loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

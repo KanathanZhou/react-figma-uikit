@@ -1,0 +1,31 @@
+.alamoma-table {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.alamoma-table-row {
+  display: flex;
+}
+
+.alamoma-table-row:not(.alamoma-table-header-row):hover {
+  background-color: var(--alamoma-blue-3);
+}
+
+.alamoma-table-cell {
+  flex: none;
+  font-size: 13px;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-table-cell.alamoma-header-cell {
+  font-size: 11px;
+  color: var(--alamoma-grey-3);
+}
+
+.alamoma-header-cell > .default-cell {
+  padding: 13px 4px 13px 8px;
+}
+
+.alamoma-table-cell > .default-cell {
+  padding: 12px 4px 12px 8px;
+}

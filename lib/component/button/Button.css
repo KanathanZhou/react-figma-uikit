@@ -1,0 +1,25 @@
+.alamoma-button {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: default;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  font-family: inherit;
+  color: var(--alamoma-black-2);
+  font-weight: 400;
+
+  background-color: transparent;
+  outline: none;
+  border: none;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

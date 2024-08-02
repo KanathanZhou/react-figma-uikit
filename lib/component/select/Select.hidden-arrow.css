@@ -1,0 +1,58 @@
+.alamoma-select-arrow-container {
+  flex: none;
+  display: flex;
+}
+
+.alamoma-select-arrow-container.hidden-arrow {
+  display: none;
+}
+
+.alamoma-select.hidden-arrow {
+  border: 1px solid transparent;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--alamoma-white-1);
+  padding-right: 0 !important;
+}
+
+.alamoma-select.hidden-arrow:hover, .alamoma-select.hidden-arrow.highlight {
+  border-color: var(--alamoma-black-5);
+}
+
+.alamoma-select.hidden-arrow:hover > .alamoma-select-arrow-container,
+.alamoma-select.hidden-arrow.highlight > .alamoma-select-arrow-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--alamoma-grey-1);
+  overflow: hidden;
+}
+
+.alamoma-select.hidden-arrow.xs > .alamoma-select-arrow-container {
+  width: 16px;
+}
+
+.alamoma-select.hidden-arrow.sm > .alamoma-select-arrow-container {
+  width: 18px;
+}
+
+.alamoma-select.hidden-arrow.md > .alamoma-select-arrow-container {
+  width: 20px;
+}
+
+.alamoma-select.hidden-arrow.lg > .alamoma-select-arrow-container {
+  width: 23px;
+}
+
+.alamoma-select.hidden-arrow.xl > .alamoma-select-arrow-container {
+  width: 26px;
+}
+
+.alamoma-select.hidden-arrow.xxl > .alamoma-select-arrow-container {
+  width: 29px;
+}
+
+.alamoma-select.hidden-arrow.xxxl > .alamoma-select-arrow-container {
+  width: 36px;
+}

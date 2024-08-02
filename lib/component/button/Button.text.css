@@ -1,0 +1,37 @@
+.alamoma-button.text {
+  cursor: pointer;
+  border-radius: 0;
+  padding: 0;
+  height: max-content;
+
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-button.text.blue {
+  color: var(--alamoma-blue-1);
+}
+
+.alamoma-button.text.blue5 {
+  color: var(--alamoma-blue-5);
+}
+
+.alamoma-button.text.red {
+  color: var(--alamoma-red-1);
+}
+
+.alamoma-button.text.purple {
+  color: var(--alamoma-purple-1);
+}
+
+.alamoma-button.text.orange {
+  color: var(--alamoma-orange-1);
+}
+
+.alamoma-button.text.green {
+  color: var(--alamoma-green-1);
+}
+
+.alamoma-button.text:disabled {
+  cursor: not-allowed;
+  color: var(--alamoma-grey-4);
+}

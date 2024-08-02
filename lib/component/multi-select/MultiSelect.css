@@ -1,0 +1,47 @@
+.alamoma-multi-select {
+  /*flex: none; This is not good, don't add it back */
+  font-weight: 400;
+  color: var(--alamoma-black-2);
+  cursor: default;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.alamoma-multi-select-display {
+  display: flex;
+  overflow: hidden;
+}
+
+.alamoma-multi-select-display-text {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.alamoma-multi-select-display.placeholder {
+  color: var(--alamoma-grey-3);
+}
+
+.alamoma-multi-select-dropdown {
+  background: var(--alamoma-white-1);
+  box-shadow: var(--alamoma-popover-shadow);
+}
+
+.alamoma-multi-select-dropdown .dropdown-list {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  cursor: default;
+  padding: 8px 0;
+}
+
+.alamoma-multi-select-prefix {
+  flex: none;
+  color: var(--alamoma-black-4);
+}

@@ -1,0 +1,15 @@
+.alamoma-tab-bar-item.text {
+  padding: 18px 0;
+  font-weight: 400;
+  color: var(--alamoma-grey-3);
+  cursor: default;
+}
+
+.alamoma-tab-bar-item.text.active {
+  font-weight: 500;
+  color: var(--alamoma-black-2);
+}
+
+.alamoma-tab-bar-item.text.blue.active {
+  color: var(--alamoma-blue-1);
+}

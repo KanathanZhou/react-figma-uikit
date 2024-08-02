@@ -1,0 +1,8 @@
+.alamoma-text-area.outlined {
+  box-shadow: inset 0 0 0 1px var(--alamoma-black-5);
+}
+
+.alamoma-text-area.outlined:focus-visible,
+.alamoma-text-area.outlined:focus {
+  box-shadow: inset 0 0 0 2px var(--alamoma-blue-2);
+}

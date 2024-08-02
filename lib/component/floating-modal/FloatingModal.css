@@ -1,0 +1,15 @@
+.alamoma-floating-modal {
+  font-family: inherit;
+  font-weight: 400;
+
+  color: var(--alamoma-black-2);
+  background-color: var(--alamoma-white-1);
+}
+
+.alamoma-floating-modal.border {
+  border: 1px solid var(--alamoma-black-5);
+}
+
+.alamoma-floating-modal.drop-shadow {
+  box-shadow: var(--alamoma-modal-shadow);
+}

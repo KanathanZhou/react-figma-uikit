@@ -1,0 +1,45 @@
+.alamoma-button {
+  border-radius: 6px;
+}
+
+.alamoma-button.xs {
+  padding: 0 9px;
+  height: 28px;
+  font-size: 9px;
+}
+
+.alamoma-button.sm {
+  padding: 0 10px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.alamoma-button.md {
+  padding: 0 11px;
+  height: 32px;
+  font-size: 11px;
+}
+
+.alamoma-button.lg {
+  padding: 0 12px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.alamoma-button.xl {
+  padding: 0 14px;
+  height: 40px;
+  font-size: 13px;
+}
+
+.alamoma-button.xxl {
+  padding: 0 15px;
+  height: 44px;
+  font-size: 14px;
+}
+
+.alamoma-button.xxxl {
+  padding: 0 17px;
+  height: 48px;
+  font-size: 15px;
+}

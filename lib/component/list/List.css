@@ -1,0 +1,33 @@
+.alamoma-list {
+  display: block;
+  color: var(--alamoma-black-2);
+  font-size: 11px;
+  font-weight: 400;
+
+  background-color: var(--alamoma-white-1);
+}
+
+.alamoma-list > .header {
+  height: 32px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--alamoma-black-2);
+  background-color: var(--alamoma-white-1);
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.alamoma-list > .header > .collapse-view {
+  visibility: hidden;
+  flex: none;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alamoma-list > .header:hover >.collapse-view {
+  visibility: visible;
+}

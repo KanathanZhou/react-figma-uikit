@@ -1,0 +1,20 @@
+.alamoma-icon-button {
+  flex: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: default;
+
+  box-sizing: border-box;
+  color: var(--alamoma-black-2);
+  background-color: var(--alamoma-white-1);
+
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.alamoma-icon-button:hover {
+  background-color: var(--alamoma-grey-1);
+}

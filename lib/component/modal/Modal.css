@@ -1,0 +1,17 @@
+.alamoma-modal-overlay {
+  background: var(--alamoma-modal-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: var(--alamoma-modal-z-index);
+}
+
+.alamoma-modal {
+  font-family: inherit;
+  font-weight: 400;
+
+  color: var(--alamoma-black-2);
+  background-color: var(--alamoma-white-1);
+  border-radius: 2px;
+  box-shadow: var(--alamoma-modal-shadow);
+}
