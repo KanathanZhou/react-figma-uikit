@@ -46,7 +46,7 @@ const App = () => {
 
         <div style={{ flex: 'none', width: '240px', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
           <div className="logo-bar">
-            <div className="logo-button whyteInktrap">Alamoma</div>
+            <div className="logo-button whyteInktrap">Taivan</div>
           </div>
           <div style={{ margin: '0 8px 8px 8px', flex: 'none' }}>
             <SearchBar placeholder="Search components, views" />

@@ -27,7 +27,7 @@ export default [
       peerDepsExternal(),
       postcss({
         // css will be extracted to a separate file, e.g.: dist/esm/index.css
-        // users will have to import it from main.tsx like this: import 'alamoma/dist/esm/index.css' or just use a random component
+        // users will have to import it from main.tsx like this: import 'taivan/dist/esm/index.css' or just use a random component
         // need to find a better way or better location for index.css
         // src: https://stackoverflow.com/questions/53653434/is-it-possible-to-use-rollup-for-processing-just-css
         extract: true
