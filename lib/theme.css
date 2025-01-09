@@ -1,47 +1,5 @@
-/* root is ** dark ** theme by default */
-:root, [data-theme="dark"] {
-  --alamoma-black-1: #fff;
-  --alamoma-black-2: #fff;
-  --alamoma-black-3: #ffffffe5;
-  --alamoma-black-4: #ffffffb2;
-  --alamoma-black-5: #444444;
-
-  --alamoma-white-1: #2c2c2c;
-
-  --alamoma-grey-1: #383838;
-  --alamoma-grey-2: rgba(255, 255, 255, .3);
-  --alamoma-grey-3: rgba(255, 255, 255, .7);
-  --alamoma-grey-4: #ffffff66;
-  --alamoma-grey-5: rgba(255, 255, 255, .8);
-  --alamoma-grey-6: #757575;
-
-  --alamoma-blue-1: #0c8ce9;
-  --alamoma-blue-2: #0c8ce9;
-  --alamoma-blue-3: #4a5878;
-  --alamoma-blue-4: #394360;
-  --alamoma-blue-5: #7cc4f8;
-  --alamoma-blue-6: #f2f9ff;
-  --alamoma-blue-7: #bde3ff;
-  --alamoma-blue-8: #007be5;
-
-  --alamoma-purple-1: #9747ff;
-
-  --alamoma-red-1: #e03e1a;
-
-  --alamoma-orange-1: #ff4500;
-  --alamoma-orange-2: #fca397;
-  --alamoma-orange-3: #ffa500;
-
-  --alamoma-green-1: #14ae5c;
-
-  --alamoma-radio-icon: #fff;
-  --alamoma-modal-overlay: rgba(0, 0, 0, .5);
-  --alamoma-modal-shadow: 0px 10px 24px rgba(0, 0, 0, .45), 0px 3px 5px rgba(0, 0, 0, .35), inset 0px 1px 0px rgba(255, 255, 255, .08), inset 0px 0px 1px rgba(255, 255, 255, .35);
-  --alamoma-popover-bg: #000;
-  --alamoma-popover-shadow: 0 0 .5px rgba(0, 0, 0, .15), 0 5px 12px rgba(0, 0, 0, .13), 0 1px 3px rgba(0, 0, 0, .1);
-}
-
-[data-theme="light"] {
+/* root is ** light ** theme by default */
+:root, [data-theme="light"] {
   --alamoma-black-1: #000;
   --alamoma-black-2: rgba(0, 0, 0, .9);
   --alamoma-black-3: #2c2c2c;
@@ -79,6 +37,48 @@
   --alamoma-radio-icon: rgba(0, 0, 0, .9);
   --alamoma-modal-overlay: rgba(0, 0, 0, .5);
   --alamoma-modal-shadow: 0px 0px .5px rgba(0, 0, 0, .08), 0px 10px 24px rgba(0, 0, 0, .18), 0px 2px 5px rgba(0, 0, 0, .15);
+  --alamoma-popover-bg: #000;
+  --alamoma-popover-shadow: 0 0 .5px rgba(0, 0, 0, .15), 0 5px 12px rgba(0, 0, 0, .13), 0 1px 3px rgba(0, 0, 0, .1);
+}
+
+[data-theme="dark"] {
+  --alamoma-black-1: #fff;
+  --alamoma-black-2: #fff;
+  --alamoma-black-3: #ffffffe5;
+  --alamoma-black-4: #ffffffb2;
+  --alamoma-black-5: #444444;
+
+  --alamoma-white-1: #2c2c2c;
+
+  --alamoma-grey-1: #383838;
+  --alamoma-grey-2: rgba(255, 255, 255, .3);
+  --alamoma-grey-3: rgba(255, 255, 255, .7);
+  --alamoma-grey-4: #ffffff66;
+  --alamoma-grey-5: rgba(255, 255, 255, .8);
+  --alamoma-grey-6: #757575;
+
+  --alamoma-blue-1: #0c8ce9;
+  --alamoma-blue-2: #0c8ce9;
+  --alamoma-blue-3: #4a5878;
+  --alamoma-blue-4: #394360;
+  --alamoma-blue-5: #7cc4f8;
+  --alamoma-blue-6: #f2f9ff;
+  --alamoma-blue-7: #bde3ff;
+  --alamoma-blue-8: #007be5;
+
+  --alamoma-purple-1: #9747ff;
+
+  --alamoma-red-1: #e03e1a;
+
+  --alamoma-orange-1: #ff4500;
+  --alamoma-orange-2: #fca397;
+  --alamoma-orange-3: #ffa500;
+
+  --alamoma-green-1: #14ae5c;
+
+  --alamoma-radio-icon: #fff;
+  --alamoma-modal-overlay: rgba(0, 0, 0, .5);
+  --alamoma-modal-shadow: 0px 10px 24px rgba(0, 0, 0, .45), 0px 3px 5px rgba(0, 0, 0, .35), inset 0px 1px 0px rgba(255, 255, 255, .08), inset 0px 0px 1px rgba(255, 255, 255, .35);
   --alamoma-popover-bg: #000;
   --alamoma-popover-shadow: 0 0 .5px rgba(0, 0, 0, .15), 0 5px 12px rgba(0, 0, 0, .13), 0 1px 3px rgba(0, 0, 0, .1);
 }

@@ -8,6 +8,7 @@ import './Button.linkage.css'
 import './Button.outlined.css'
 import './Button.text.css'
 import classNames from "classnames";
+import {twMerge} from "tailwind-merge";
 
 const Button: FC<ButtonProps> = ({
   children,
@@ -21,7 +22,7 @@ const Button: FC<ButtonProps> = ({
     <button
       {...props}
       className={
-        classNames('alamoma-button', size, skin, uiStyle, props.className)
+        twMerge(classNames('alamoma-button', size, skin, uiStyle, props.className))
       }
       data-theme={theme}
     >
