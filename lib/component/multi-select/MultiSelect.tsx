@@ -53,7 +53,8 @@ const MultiSelect: FC<MultiSelectProps> = ({
   activeStyle = 'checkmark',
   hoverStyle = 'filled',
   onChangeTextFilterValue,
-  onChangeCustomOptionValue
+  onChangeCustomOptionValue,
+  dropdownStyle
 }) => {
   const arrowRef = useRef(null)
   const [open, setOpen] = useState<boolean>(false)
@@ -196,6 +197,7 @@ const MultiSelect: FC<MultiSelectProps> = ({
               style={{
                 zIndex: zIndex,
                 borderRadius: cornerRadius,
+                ...dropdownStyle,
                 ...floatingStyles
               }}
               {...getFloatingProps()}

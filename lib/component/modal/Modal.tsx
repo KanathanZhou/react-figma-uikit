@@ -7,7 +7,7 @@ import {
   FloatingFocusManager,
   useDismiss,
   useRole,
-  useInteractions
+  useInteractions, FloatingPortal, FloatingNode, useFloatingNodeId
 } from "@floating-ui/react";
 
 const Modal: FC<ModalProps> = ({
@@ -37,37 +37,41 @@ const Modal: FC<ModalProps> = ({
   const {getFloatingProps} = useInteractions([
     dismiss,
     role
-  ])
+  ]);
+
+  const nodeId = useFloatingNodeId();
 
   return (
-      <>
+    <FloatingNode id={nodeId}>
+      <FloatingPortal>
         {open && (
-            <FloatingOverlay
-                lockScroll
-                className="alamoma-modal-overlay"
-                style={overlayStyle}
+          <FloatingOverlay
+            lockScroll
+            className="alamoma-modal-overlay"
+            style={overlayStyle}
+          >
+            <FloatingFocusManager
+              context={context}
+              modal={true}
+              initialFocus={-1}
+              {...getFloatingProps()}
             >
-              <FloatingFocusManager
-                  context={context}
-                  modal={true}
-                  initialFocus={-1}
-                  {...getFloatingProps()}
+              <div
+                ref={refs.setFloating}
+                className="alamoma-modal"
+                style={{
+                  width: width,
+                  height: height,
+                  ...style
+                }}
               >
-                <div
-                    ref={refs.setFloating}
-                    className="alamoma-modal"
-                    style={{
-                      width: width,
-                      height: height,
-                      ...style
-                    }}
-                >
-                  {children}
-                </div>
-              </FloatingFocusManager>
-            </FloatingOverlay>
+                {children}
+              </div>
+            </FloatingFocusManager>
+          </FloatingOverlay>
         )}
-      </>
+      </FloatingPortal>
+    </FloatingNode>
   )
 }
 

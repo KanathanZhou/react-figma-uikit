@@ -54,6 +54,7 @@ const Select: FC<SelectProps> = ({
   hoverStyle = 'filled',
   onChangeCustomOptionValue,
   onChangeTextFilterValue,
+  dropdownStyle
 }) => {
   const arrowRef = useRef(null)
   const [open, setOpen] = useState<boolean>(false)
@@ -195,6 +196,7 @@ const Select: FC<SelectProps> = ({
               style={{
                 zIndex: zIndex,
                 borderRadius: cornerRadius,
+                ...dropdownStyle,
                 ...floatingStyles
               }}
               {...getFloatingProps()}

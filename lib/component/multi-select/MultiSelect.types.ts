@@ -31,4 +31,5 @@ export interface MultiSelectProps {
   activeStyle?: ListItemActiveStyle
   hoverStyle?: ListItemHoverStyle
   onChangeTextFilterValue?: (value: string) => void
+  dropdownStyle?: CSSProperties
 }
