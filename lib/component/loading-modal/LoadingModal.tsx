@@ -19,10 +19,7 @@ const LoadingModal: FC<LoadingModalProps> = ({
           open={open}
           setOpen={setOpen}
           clickOutsideToClose={false}
-          overlayStyle={{
-            zIndex: 'var(--alamoma-loading-modal-z-index)',
-            ...overlayStyle
-          }}
+          overlayStyle={overlayStyle}
           style={style}
       >
         <div className="alamoma-loading-modal">
