@@ -13,6 +13,8 @@ export interface SearchBarProps {
   cornerRadius?: string
   style?: CSSProperties
   className?: string
+  inputStyle?: CSSProperties
+  inputClassName?: string
   theme?: 'light' | 'dark'
   uiStyle?: SearchBarUIStyle
   disabled?: boolean

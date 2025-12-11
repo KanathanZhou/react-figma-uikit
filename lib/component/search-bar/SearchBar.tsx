@@ -31,7 +31,9 @@ const SearchBar: FC<SearchBarProps> = ({
   size = 'md',
   uiStyle = 'flat',
   disabled,
-  showFocusedBorder = false
+  showFocusedBorder = false,
+  inputStyle,
+  inputClassName
 }) => {
   return (
     <div
@@ -86,7 +88,11 @@ const SearchBar: FC<SearchBarProps> = ({
         size={size}
         theme={theme}
         disabled={disabled}
-        style={{ flex: 1 }}
+        style={{
+          flex: 1,
+          ...inputStyle
+        }}
+        className={inputClassName}
       />
     </div>
   )

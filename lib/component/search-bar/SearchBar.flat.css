@@ -10,3 +10,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.alamoma-search-bar.flat:focus-within {
+  border-radius: 8px;
+}
