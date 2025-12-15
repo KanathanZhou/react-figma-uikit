@@ -6,5 +6,7 @@ export interface StepperProps {
   steps: string[]
   style?: CSSProperties
   className?: string
+  stepStyle?: CSSProperties
+  stepClassName?: string
   theme?: 'light' | 'dark'
 }

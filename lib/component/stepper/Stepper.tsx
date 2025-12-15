@@ -1,4 +1,4 @@
-import React, {FC, useMemo} from "react";
+import React, {FC} from "react";
 import {StepperProps} from "./Stepper.types";
 import './Stepper.css'
 import classNames from "classnames";
@@ -13,6 +13,8 @@ const Stepper: FC<StepperProps> = ({
   steps,
   style,
   className,
+  stepStyle,
+  stepClassName,
   theme,
 }) => {
   return (
@@ -28,11 +30,12 @@ const Stepper: FC<StepperProps> = ({
         return (
           <div
             key={index}
+            style={stepStyle}
             className={
               classNames('alamoma-stepper', {
                 active: step === index,
                 passed: step > index
-              })
+              }, stepClassName)
             }
           >
             <div className="step-breadcrumb">

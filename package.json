@@ -1,6 +1,6 @@
 {
   "name": "taivan",
-  "version": "0.3.26",
+  "version": "0.3.30",
   "description": "Taivan - A React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

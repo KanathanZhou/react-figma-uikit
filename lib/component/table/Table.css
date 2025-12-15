@@ -1,6 +1,6 @@
 .alamoma-table {
   box-sizing: border-box;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: inherit;
 }
 
 .alamoma-table-row {
